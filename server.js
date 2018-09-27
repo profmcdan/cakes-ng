@@ -33,7 +33,7 @@ app.use("/auth", authRoutes);
 
 // Create home route
 app.get("/", (req, res) => {
-  return res.json({ user: "New User" });
+  return res.send("Test OK");
 });
 
 // Listen to a port number
